@@ -39,6 +39,10 @@ export const Colors = () => {
       <span class="bg-primary-light-4 text-white">primary light 4</span> |
       <span class="bg-primary-light-6 text-white">primary light 6</span> |
       <span class="bg-primary-light-8 text-white">primary light 8</span> |
+
+      <br />
+      <br />
+      <span class="text-primary text-hover-orange-light-1">primary light 8</span>
     </div>
   );
 };
