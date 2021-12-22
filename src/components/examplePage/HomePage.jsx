@@ -3,7 +3,7 @@ import React from "react";
 export const HomePage = () => {
   return (
     <>
-      <nav className="navbar">
+      <nav id="nav" className="navbar">
         <div className="container">
           <h1 className="site-title">Adam Kudłacik</h1>
           <ul className="display-f">
@@ -110,7 +110,9 @@ export const HomePage = () => {
             </div>
           </div>
           <div className="row justify-center mt-2">
-            <button className="btn-secondary text-white font-md">View All</button>
+            <button className="btn-secondary text-white font-md">
+              View All
+            </button>
           </div>
         </div>
       </section>

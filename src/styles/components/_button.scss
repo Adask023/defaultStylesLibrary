@@ -12,6 +12,15 @@
   @include btn;
 }
 
+.up-btn {
+  @include btn;
+  position: -webkit-sticky;
+  position: fixed;
+  display: auto;
+  bottom: 1rem;
+  right: 1rem;
+}
+
 @each $key, $val in $colors {
   .btn-#{$key} {
     @include btn($val);

@@ -14,8 +14,22 @@ function App() {
 
   return (
     <div className="App">
-      <HomePage />
-      {examples && (
+      <div id="#top" className="container mt-2 mb-2">
+        <div className="row justify-center">
+          <button
+            className="btn-outlined-secondary text-secondary text-hover-white"
+            onClick={() => setExamples((examples) => !examples)}
+          >
+            {examples ? "Show example homepage" : "Show examples"}
+          </button>
+        </div>
+      </div>
+
+      <a className="up-btn btn-secondary text-white font-lg" href="#top">
+        ↑
+      </a>
+
+      {examples ? (
         <>
           <Navbar />
 
@@ -33,6 +47,8 @@ function App() {
             <GridSystem />
           </div>
         </>
+      ) : (
+        <HomePage />
       )}
     </div>
   );
