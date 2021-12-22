@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/defaultStylesLibrary/static/css/main.d36ac5d0.css",
+    "main.js": "/defaultStylesLibrary/static/js/main.eb1bb762.js",
+    "index.html": "/defaultStylesLibrary/index.html",
+    "main.d36ac5d0.css.map": "/defaultStylesLibrary/static/css/main.d36ac5d0.css.map",
+    "main.eb1bb762.js.map": "/defaultStylesLibrary/static/js/main.eb1bb762.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d36ac5d0.css",
+    "static/js/main.eb1bb762.js"
+  ]
+}
